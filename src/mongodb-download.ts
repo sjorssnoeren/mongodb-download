@@ -1,5 +1,5 @@
 const os: any = require('os');
-const http: any = require('https');
+const http: any = require('http');
 const fs: any = require('fs-extra');
 const path: any = require('path');
 const Debug: any = require('debug');
