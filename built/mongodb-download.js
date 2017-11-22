@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var os = require('os');
-var http = require('https');
+var http = require('http');
 var fs = require('fs-extra');
 var path = require('path');
 var Debug = require('debug');
