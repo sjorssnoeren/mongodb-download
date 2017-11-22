@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var os = require('os');
-var http = require('http');
+var http = require('https');
 var fs = require('fs-extra');
 var path = require('path');
 var Debug = require('debug');
@@ -10,7 +10,7 @@ var url = require('url');
 var decompress = require('decompress');
 var request = require('request-promise');
 var md5File = require('md5-file');
-var DOWNLOAD_URI = "http://downloads.mongodb.org";
+var DOWNLOAD_URI = "https://downloads.mongodb.org";
 var MONGODB_VERSION = "latest";
 var MongoDBDownload = (function () {
     function MongoDBDownload(_a) {
