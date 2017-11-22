@@ -1,5 +1,5 @@
 const os: any = require('os');
-const http: any = require('http');
+const http: any = require('https');
 const fs: any = require('fs-extra');
 const path: any = require('path');
 const Debug: any = require('debug');
@@ -9,7 +9,7 @@ const decompress: any = require('decompress');
 const request: any = require('request-promise');
 const md5File: any = require('md5-file');
 
-const DOWNLOAD_URI: string = "http://downloads.mongodb.org";
+const DOWNLOAD_URI: string = "https://downloads.mongodb.org";
 const MONGODB_VERSION: string = "latest";
 
 export interface IMongoDBDownloadOptions {
